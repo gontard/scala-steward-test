@@ -2,6 +2,6 @@ lazy val root = (project in file("."))
   .settings(
     name := "scala-steward-test",
     libraryDependencies ++= Seq(
-      "org.apache.portals.pluto" % "pluto-portal" % "3.1.1"
+      "org.apache.karaf" % "apache-karaf" % "2.1.0" % Test
     )
 )
